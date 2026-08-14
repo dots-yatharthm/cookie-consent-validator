@@ -1,0 +1,19 @@
+{
+  "name": "cookie-consent-tester",
+  "version": "1.0.0",
+  "description": "Vendor-agnostic Playwright test suite for validating cookie-consent management platforms (CMPs) across sites, browsers, and viewports.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/index.js",
+    "smoke": "node src/index.js --sites ahwatukeepa --tc 001,002,003,004,009 --browsers chromium --viewports desktop --workers 2",
+    "smoke:all": "node src/index.js --sites adient,ahwatukeepa,jncb-staging --tc 001,002,003,004,009 --browsers chromium,firefox --viewports desktop,mobile --workers 2",
+    "check-system": "node -e \"console.log('Node version:', process.version)\" && npx playwright --version"
+  },
+  "keywords": ["playwright", "cookie-consent", "cmp", "gdpr", "ccpa", "testing", "e2e"],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "playwright": "^1.62.1"
+  }
+}

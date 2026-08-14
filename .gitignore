@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Report output (generated artifacts — not source)
+report/results.json
+report/results.csv
+report/report.html
+report/junit.xml
+report/shots/
+
+# Runtime / cache
+/.cache/
+/.node-options
+
+# IDE / editor artifacts
+.DS_Store
+
+# Local Claude Code settings (machine-specific paths)
+.claude/
+
+# Environment variables
+.env
+
+# Playwright persistent context
+playwright-test/
