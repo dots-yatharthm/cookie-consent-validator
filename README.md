@@ -1,4 +1,4 @@
-# Cookie Consent Tester
+# Cookie Consent Validator
 
 A **vendor-agnostic Playwright test suite** for validating **cookie-consent management platforms (CMPs)**. For any site it:
 
