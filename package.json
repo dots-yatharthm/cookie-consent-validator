@@ -1,5 +1,5 @@
 {
-  "name": "cookie-consent-tester",
+  "name": "cookie-consent-validator",
   "version": "1.0.0",
   "description": "Vendor-agnostic Playwright test suite for validating cookie-consent management platforms (CMPs) across sites, browsers, and viewports.",
   "main": "src/index.js",

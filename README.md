@@ -19,7 +19,7 @@ It ships with profiles for 4 sites and can probe **any** URL in discovery mode.
 ## 2. Install
 
 ```bash
-cd "cookie-consent-tester"
+cd "cookie-consent-validator"
 npm install                 # installs playwright
 npx playwright install chromium firefox   # downloads the browser engines
 ```
